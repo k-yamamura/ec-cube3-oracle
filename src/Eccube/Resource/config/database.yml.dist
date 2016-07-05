@@ -1,0 +1,10 @@
+database:
+    driver: ${DBDRIVER}
+    host: ${DBSERVER}
+    dbname: ${DBNAME}
+    port: ${DBPORT}
+    user: ${DBUSER}
+    password : ${DBPASS}
+    servicename : ${SERVICENAME}
+    charset: utf8
+    defaultTableOptions: { collate: utf8_general_ci }

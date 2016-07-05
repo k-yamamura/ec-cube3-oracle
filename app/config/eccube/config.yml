@@ -1,0 +1,8 @@
+auth_magic: vltKdhxOrnTEpfdjDI1DzAMyLteQUzGi
+password_hash_algos: sha256
+shop_name: eccubeoracle
+force_ssl: null
+admin_allow_host: {  }
+cookie_lifetime: 0
+locale: ja
+timezone: Asia/Tokyo

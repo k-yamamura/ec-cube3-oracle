@@ -1,0 +1,29 @@
+Eccube\Entity\CategoryTotalCount:
+    type: entity
+    table: dtb_category_total_count
+    repositoryClass: Eccube\Repository\CategoryTotalCountRepository
+    id:
+        id:
+            type: integer
+            nullable: false
+            unsigned: false
+            id: true
+            column: category_total_count_id
+            generator:
+                strategy: AUTO
+    fields:
+        product_count:
+            type: integer
+            nullable: true
+            unsigned: false
+        create_date:
+            type: datetime
+            nullable: false
+    oneToOne:
+        Category:
+            targetEntity: Category
+            inversedBy: CategoryTotalCount
+            joinColumn:
+                name: id
+                referencedColumnName: category_id
+    lifecycleCallbacks: {  }

@@ -1,0 +1,10 @@
+database:
+    driver: oci8
+    host: 192.168.33.10
+    dbname: eccube
+    port: 
+    user: eccube
+    password : eccube
+    servicename : xe
+    charset: utf8
+    defaultTableOptions: { collate: utf8_general_ci }
